@@ -158,11 +158,24 @@ img:hover {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     nav {
         gap: 15px;
     }
     input {
         width: 30vw;
+    }
+    .artigo {
+        grid-template-columns: 1fr 1fr;
+        font-size: 1.4rem;
+    }
+    .texto {
+        width: 50%;
+        width: 50vw;
+        font-size: 1.3rem;
+    }
+    .artigo img {
+        width: 30vw;
+        aspect-ratio: 13/16;
     }
 }
